@@ -1,3 +1,4 @@
+import"./global.scss"
 import Loggin from"./components/loggin/Loggin.jsx"
 function App(){
   return(

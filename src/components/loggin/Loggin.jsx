@@ -6,22 +6,23 @@ function Loggin (){
 return(
    <main>
    
-    <section className={styles.conteinerLoggin}> 
- 
-    <img src={Capa} alt="foto navio"/>
- 
+    <section className={styles.conteinerLoggin}>  
+    <img src={Capa} alt="foto navio conteiners"/> 
     </section>
-
     
-    <section>
-    <div>
-    <img src= {Logo} alt="Logo da wilson sons"/>
+    <section className={styles.formWapper}>
+    <div className={styles.boxLogo}>
+    <img src= {Logo} alt="Logo Wilson Sons"/>
     <h1>Boas vindas ao Novo Portal SISPAR</h1>
     <p>Sistema de Emissão de Boletos e Parcelamento</p>
     </div>
 
     <form action="">
-    <input type ="email" name="email" id="email" placeholder="Email"/>
+    <input 
+    type ="email" 
+    name="email" 
+    id="email" 
+    placeholder="Email"/>
 
     <input
     type="password"
@@ -30,11 +31,11 @@ return(
     placeholder="Senha"
     />
 
-   <p>Esqueci senha</p>
+   <a href="#">Esqueci senha</a> {/* link p/ outra pagina*/}
 
     <div>
-    <button>Entar</button>
-    <button>Criar Conta</button>
+    <button className={styles.buttonEntrar}>Entar</button>
+    <button className={styles.bittonCriar}>Criar Conta</button>
     </div>
     
    </form>
