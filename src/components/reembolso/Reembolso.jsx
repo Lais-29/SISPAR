@@ -19,7 +19,7 @@ function Reembolso(){
          <p>Reembolso</p>
         </header> 
 
-         <main>
+         <main className={styles.mainReembolso}>
         <h1> Sistema de Reembolsos</h1>   
         <p>
         Solicite novos pedidos de reembolso, visualize solicitações em análise e todo o histórico.
